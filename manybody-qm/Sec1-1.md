@@ -11,8 +11,8 @@
     \begin{equation}
         \zeta^P=\left\\{
             \begin{array}{cc}
-                \zeta & (P\text{が奇置換}) \\ 
-                1 & (P\text{が偶置換}) \\ 
+                \zeta & (P\text{が奇置換}) \\\\\\
+                1 & (P\text{が偶置換}) \\\\\\
             \end{array}
         \right.
     \end{equation}
@@ -25,11 +25,11 @@
 Fermi粒子については$N$粒子の中に同じ状態を持つものがあると、その間で入れ替えてできるテンソル積が元のテンソル積と打ち消し合うため、得られる粒子系全体の状態ベクトルが0となってしまう。すなわち、Fermi粒子系では2つ以上の粒子が同じ状態をとることが許されない。これをPauliの排他原理という。
 
 \eqref{many_body_qsv_def}で定義された多体量子状態に対し、同種$N$粒子の量子状態との内積は、
-    \begin{align}
-        \left\langle \phi\middle|\psi\right\rangle&=\left\langle \phi_1,\phi_2,\cdots,\phi_N\middle|\psi_1,\psi_2,\cdots,\psi_N\right\rangle \\ 
-        &=\frac{1}{N!}\sum_{P,Q}\zeta^P\zeta^{Q} \left\langle\phi_{P(1)}\middle|\psi_{Q(1)}\right\rangle\left\langle\phi_{P(2)}\middle|\psi_{Q(2)}\right\rangle\cdots\left\langle\phi_{P(N)}\middle|\psi_{Q(N)}\right\rangle \\ 
+    \begin{align*}
+        \left\langle \phi\middle|\psi\right\rangle&=\left\langle \phi_1,\phi_2,\cdots,\phi_N\middle|\psi_1,\psi_2,\cdots,\psi_N\right\rangle \\\\\\
+        &=\frac{1}{N!}\sum_{P,Q}\zeta^P\zeta^{Q} \left\langle\phi_{P(1)}\middle|\psi_{Q(1)}\right\rangle\left\langle\phi_{P(2)}\middle|\psi_{Q(2)}\right\rangle\cdots\left\langle\phi_{P(N)}\middle|\psi_{Q(N)}\right\rangle \\\\\\
         &=\sum_{R}\zeta^R \left\langle\phi_1\middle|\psi_{R(1)}\right\rangle\left\langle\phi_2\middle|\psi_{R(2)}\right\rangle\cdots\left\langle\phi_N\middle|\psi_{R(N)}\right\rangle
-    \end{align}
+    \end{align*}
 で与えられる。ここで、$P,Q,R$は$\left\\{1,2,\ldots,N\right\\}$に対する置換を表し、$R=P^{-1}\circ Q$である。総和は全て可能な置換$P,Q,R$に対しとっている。特に、$\zeta=-1$のFermi粒子系の場合、この内積は、
     \begin{equation}
         \left\langle \phi\middle|\psi\right\rangle=
@@ -47,18 +47,18 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 で与えられることがわかる。
 
 正規直交系をなす1粒子状態の正規直交系$\left\\{\left|\alpha_i\right\rangle\right\\}$を用意すると、
-    \begin{align}
+    \begin{align*}
         &\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right| \\\\\\
         &\qquad=\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_1}\right\rangle\!\left\langle\alpha_{i_{P(1)}}\right|\right)\otimes\left(\left|\alpha_{i_2}\right\rangle\!\left\langle\alpha_{i_{P(2)}}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_{P(N)}}\right|\right) \\\\\\
         &\qquad=\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_{P(1)}}\right\rangle\!\left\langle\alpha_{i_1}\right|\right)\otimes\left(\left|\alpha_{i_{P(2)}}\right\rangle\!\left\langle\alpha_{i_2}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_{P(N)}}\right\rangle\!\left\langle\alpha_{i_N}\right|\right)
-    \end{align}
+    \end{align*}
 に対して、$\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle$を右から作用させると、
-    \begin{align}
+    \begin{align*}
         &\left[\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_{P(1)}}\right\rangle\!\left\langle\alpha_{i_1}\right|\right)\otimes\left(\left|\alpha_{i_{P(2)}}\right\rangle\!\left\langle\alpha_{i_2}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_P(N)}\right\rangle\!\left\langle\alpha_{i_N}\right|\right)\right]\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle \\\\\\
         &\qquad =\left(\frac{1}{N!}\right)^{3/2}\sum_{i_1,i_2,\cdots,i_N}\sum_{P,Q}\zeta^P\zeta^Q \left|\alpha_{i_{P(1)}}\right\rangle\left|\alpha_{i_{P(2)}}\right\rangle\cdots\left|\alpha_{i_P(N)}\right\rangle\left\langle\alpha_{i_1}\middle|\alpha_{j_{Q(1)}}\right\rangle\left\langle\alpha_{i_2}\middle|\alpha_{j_{Q(2)}}\right\rangle\cdots\left\langle\alpha_{i_N}\middle|\alpha_{j_{Q(N)}}\right\rangle \\\\\\
         &\qquad =\left(\frac{1}{N!}\right)^{3/2}\sum_{P,Q}\zeta^P\zeta^Q \left|\alpha_{j_{Q\circ P(1)}}\right\rangle\left|\alpha_{j_{Q\circ P(2)}}\right\rangle\cdots\left|\alpha_{j_{Q\circ P(N)}}\right\rangle \\\\\\
         &\qquad =\frac{1}{\sqrt{N!}}\sum_{R}\zeta^R \left|\alpha_{j_{R(1)}}\right\rangle\left|\alpha_{j_{R(2)}}\right\rangle\cdots\left|\alpha_{j_{R(N)}}\right\rangle=\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle
-    \end{align}
+    \end{align*}
 となることから、完全性関係
     \begin{equation}\label{complete-relation_N-particle}
         \frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rvert=\hat{I}^{(N)}
