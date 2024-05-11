@@ -4,9 +4,9 @@
 
 [過去の自己紹介文](https://pr440.gituhub.io/log.html)
 
-# [興味のあること(2024/04/01)](https://pr440.github.io/interest20240401.html)
+## [興味のあること(2024/04/01)](https://pr440.github.io/interest20240401.html)
 
-# [多体系の量子力学](https://pr440.github.io/manybody-qm/)
+## [多体系の量子力学](https://pr440.github.io/manybody-qm/)
 計算練習ついでに作っています。書きたい内容は以下のような感じ(進捗1割、あるいはそれ以下…)：
 
 * 生成消滅演算子、場の演算子、経路積分、熱的純粋量子状態(TPQ state)…などによる量子多体系の定式化、およびその数理
