@@ -1,5 +1,5 @@
 # 同種粒子の不可弁別性
-1粒子状態$\left|\psi_i\right\rangle$を持つ粒子が$i=1,2,\hdots,N$まで存在するとき、これら$N$粒子全体の量子状態は、各粒子が識別可能な別種の粒子である場合には、
+1粒子状態$\left|\psi_i\right\rangle$を持つ粒子が$i=1,2,\ldots,N$まで存在するとき、これら$N$粒子全体の量子状態は、各粒子が識別可能な別種の粒子である場合には、
 \begin{equation}
 \left|\psi\right\rangle\equiv\left|\psi_1\right\rangle\left|\psi_2\right\rangle\cdots\left|\psi_N\right\rangle
 \end{equation}
@@ -7,7 +7,7 @@
 \begin{equation}\label{many_body_qsv_def}
 \left|\psi\right\rangle=\left|\psi_1,\psi_2,\cdots,\psi_N\right\rangle\equiv\frac{1}{\sqrt{N!}}\sum_{P}\zeta^P \left|\psi_{P(1)}\right\rangle\left|\psi_{P(2)}\right\rangle\cdots\left|\psi_{P(N)}\right\rangle
 \end{equation}
-で表されるべきである。ここで$P$は$\left\\{1,2,\hdots,N\right\\}$に対する置換を表し、総和は可能な全ての置換$P$に対しとっている。同じ粒子の組を2回入れ替えたときには状態が戻るように、$\zeta=\pm 1$に対し、
+で表されるべきである。ここで$P$は$\left\\{1,2,\ldots,N\right\\}$に対する置換を表し、総和は可能な全ての置換$P$に対しとっている。同じ粒子の組を2回入れ替えたときには状態が戻るように、$\zeta=\pm 1$に対し、
 \begin{equation}
 \zeta^P=\left\\{
 \begin{array}{cc}
@@ -30,7 +30,7 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 &=\frac{1}{N!}\sum_{P,Q}\zeta^P\zeta^{Q} \left\langle\phi_{P(1)}\middle|\psi_{Q(1)}\right\rangle\left\langle\phi_{P(2)}\middle|\psi_{Q(2)}\right\rangle\cdots\left\langle\phi_{P(N)}\middle|\psi_{Q(N)}\right\rangle \\
 &=\sum_{R}\zeta^R \left\langle\phi_1\middle|\psi_{R(1)}\right\rangle\left\langle\phi_2\middle|\psi_{R(2)}\right\rangle\cdots\left\langle\phi_N\middle|\psi_{R(N)}\right\rangle
 \end{align}
-で与えられる。ここで、$P,Q,R$は$\left\\{1,2,\hdots,N\right\\}$に対する置換を表し、$R=P^{-1}\circ Q$である。総和は全て可能な置換$P,Q,R$に対しとっている。特に、$\zeta=-1$のFermi粒子系の場合、この内積は、
+で与えられる。ここで、$P,Q,R$は$\left\\{1,2,\ldots,N\right\\}$に対する置換を表し、$R=P^{-1}\circ Q$である。総和は全て可能な置換$P,Q,R$に対しとっている。特に、$\zeta=-1$のFermi粒子系の場合、この内積は、
 \begin{equation}
 \left\langle \phi\middle|\psi\right\rangle=
 \begin{vmatrix}
