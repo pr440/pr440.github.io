@@ -7,9 +7,9 @@
 \begin{equation}\label{many_body_qsv_def}
 \left|\psi\right\rangle=\left|\psi_1,\psi_2,\cdots,\psi_N\right\rangle\equiv\frac{1}{\sqrt{N!}}\sum_{P}\zeta^P \left|\psi_{P(1)}\right\rangle\left|\psi_{P(2)}\right\rangle\cdots\left|\psi_{P(N)}\right\rangle
 \end{equation}
-で表されるべきである。ここで$P$は$\left\{1,2,\hdots,N\right\}$に対する置換を表し、総和は可能な全ての置換$P$に対しとっている。同じ粒子の組を2回入れ替えたときには状態が戻るように、$\zeta=\pm 1$に対し、
+で表されるべきである。ここで$P$は$\left\\{1,2,\hdots,N\right\\}$に対する置換を表し、総和は可能な全ての置換$P$に対しとっている。同じ粒子の組を2回入れ替えたときには状態が戻るように、$\zeta=\pm 1$に対し、
 \begin{equation}
-\zeta^P=\left\{
+\zeta^P=\left\\{
 \begin{array}{cc}
 \zeta & (P\text{が奇置換}) \\
 1 & (P\text{が偶置換}) \\
@@ -30,7 +30,7 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 &=\frac{1}{N!}\sum_{P,Q}\zeta^P\zeta^{Q} \left\langle\phi_{P(1)}\middle|\psi_{Q(1)}\right\rangle\left\langle\phi_{P(2)}\middle|\psi_{Q(2)}\right\rangle\cdots\left\langle\phi_{P(N)}\middle|\psi_{Q(N)}\right\rangle \\
 &=\sum_{R}\zeta^R \left\langle\phi_1\middle|\psi_{R(1)}\right\rangle\left\langle\phi_2\middle|\psi_{R(2)}\right\rangle\cdots\left\langle\phi_N\middle|\psi_{R(N)}\right\rangle
 \end{align}
-で与えられる。ここで、$P,Q,R$は$\left\{1,2,\hdots,N\right\}$に対する置換を表し、$R=P^{-1}\circ Q$である。総和は全て可能な置換$P,Q,R$に対しとっている。特に、$\zeta=-1$のFermi粒子系の場合、この内積は、
+で与えられる。ここで、$P,Q,R$は$\left\\{1,2,\hdots,N\right\\}$に対する置換を表し、$R=P^{-1}\circ Q$である。総和は全て可能な置換$P,Q,R$に対しとっている。特に、$\zeta=-1$のFermi粒子系の場合、この内積は、
 \begin{equation}
 \left\langle \phi\middle|\psi\right\rangle=
 \begin{vmatrix}
@@ -46,7 +46,7 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 \end{equation}
 で与えられることがわかる。
 
-正規直交系をなす1粒子状態の正規直交系$\left\{\left|\alpha_i\right\rangle\right\}$を用意すると、
+正規直交系をなす1粒子状態の正規直交系$\left\\{\left|\alpha_i\right\rangle\right\\}$を用意すると、
 \begin{align}
 &\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right|\\
 &\qquad=\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_1}\right\rangle\!\left\langle\alpha_{i_{P(1)}}\right|\right)\otimes\left(\left|\alpha_{i_2}\right\rangle\!\left\langle\alpha_{i_{P(2)}}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_{P(N)}}\right|\right) \\
@@ -63,7 +63,7 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 \begin{equation}\label{complete-relation_N-particle}
 \frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right|=\hat{I}^{(N)}
 \end{equation}
-が導かれる($\hat{I}^{(N)}$は$N$粒子状態に対する恒等演算子)。$\left\{\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\right\}$は、Fermi粒子の場合には$i_1<i_2<\cdots <i_N$の条件\footnote{ある1粒子状態の組で表される多体状態が一意に定まるように状態のとり方を制限している。Bose粒子での条件も同じ。}のもとで正規直交系をなす一方、Bose粒子の場合には$i_1\leq i_2\leq \cdots \leq i_N$の条件を課しても直交系は成すが正規化は満たされない。実際に、1粒子状態$\left|\alpha_i\right\rangle$を持つ粒子が$n_i$個ある$N$粒子系の状態のノルムは
+が導かれる($\hat{I}^{(N)}$は$N$粒子状態に対する恒等演算子)。$\left\\{\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\right\\}$は、Fermi粒子の場合には$i_1<i_2<\cdots <i_N$の条件\footnote{ある1粒子状態の組で表される多体状態が一意に定まるように状態のとり方を制限している。Bose粒子での条件も同じ。}のもとで正規直交系をなす一方、Bose粒子の場合には$i_1\leq i_2\leq \cdots \leq i_N$の条件を課しても直交系は成すが正規化は満たされない。実際に、1粒子状態$\left|\alpha_i\right\rangle$を持つ粒子が$n_i$個ある$N$粒子系の状態のノルムは
 \begin{equation}
 \left\langle\alpha_1,\cdots,\alpha_1,\alpha_2,\cdots\middle|\alpha_1,\cdots,\alpha_1,\alpha_2\cdots\right\rangle=\prod_i (n_i)!
 \end{equation}
