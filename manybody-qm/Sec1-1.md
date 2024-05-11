@@ -34,10 +34,10 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
     \begin{equation}
         \left\langle \phi\middle|\psi\right\rangle=
             \begin{vmatrix}
-                \left\langle\phi_1\middle|\psi_1\right\rangle & \left\langle\phi_1\middle|\psi_2\right\rangle & \cdots & \left\langle\phi_1\middle|\psi_N\right\rangle \\\\
-                \left\langle\phi_2\middle|\psi_1\right\rangle & \left\langle\phi_2\middle|\psi_2\right\rangle & \cdots & \left\langle\phi_2\middle|\psi_N\right\rangle \\\\
-                \vdots & \vdots & \ddots & \vdots \\\\
-                \left\langle\phi_N\middle|\psi_1\right\rangle & \left\langle\phi_N\middle|\psi_2\right\rangle & \cdots & \left\langle\phi_N\middle|\psi_N\right\rangle \\\\
+                \left\langle\phi_1\middle|\psi_1\right\rangle & \left\langle\phi_1\middle|\psi_2\right\rangle & \cdots & \left\langle\phi_1\middle|\psi_N\right\rangle \\\\\\
+                \left\langle\phi_2\middle|\psi_1\right\rangle & \left\langle\phi_2\middle|\psi_2\right\rangle & \cdots & \left\langle\phi_2\middle|\psi_N\right\rangle \\\\\\
+                \vdots & \vdots & \ddots & \vdots \\\\\\
+                \left\langle\phi_N\middle|\psi_1\right\rangle & \left\langle\phi_N\middle|\psi_2\right\rangle & \cdots & \left\langle\phi_N\middle|\psi_N\right\rangle \\\\\\
             \end{vmatrix}
     \end{equation}
 というように行列式で表される。また、同様にしてケット-ブラの積も
@@ -48,15 +48,15 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 
 正規直交系をなす1粒子状態の正規直交系$\left\\{\left|\alpha_i\right\rangle\right\\}$を用意すると、
     \begin{align}
-        &\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right| \\\\
-        &\qquad=\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_1}\right\rangle\!\left\langle\alpha_{i_{P(1)}}\right|\right)\otimes\left(\left|\alpha_{i_2}\right\rangle\!\left\langle\alpha_{i_{P(2)}}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_{P(N)}}\right|\right) \\\\
+        &\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\left|\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right| \\\\\\
+        &\qquad=\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_1}\right\rangle\!\left\langle\alpha_{i_{P(1)}}\right|\right)\otimes\left(\left|\alpha_{i_2}\right\rangle\!\left\langle\alpha_{i_{P(2)}}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_N}\right\rangle\!\left\langle\alpha_{i_{P(N)}}\right|\right) \\\\\\
         &\qquad=\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_{P(1)}}\right\rangle\!\left\langle\alpha_{i_1}\right|\right)\otimes\left(\left|\alpha_{i_{P(2)}}\right\rangle\!\left\langle\alpha_{i_2}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_{P(N)}}\right\rangle\!\left\langle\alpha_{i_N}\right|\right)
     \end{align}
 に対して、$\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle$を右から作用させると、
     \begin{align}
-        &\left[\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_{P(1)}}\right\rangle\!\left\langle\alpha_{i_1}\right|\right)\otimes\left(\left|\alpha_{i_{P(2)}}\right\rangle\!\left\langle\alpha_{i_2}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_P(N)}\right\rangle\!\left\langle\alpha_{i_N}\right|\right)\right]\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle \\\\
-        &\qquad =\left(\frac{1}{N!}\right)^{3/2}\sum_{i_1,i_2,\cdots,i_N}\sum_{P,Q}\zeta^P\zeta^Q \left|\alpha_{i_{P(1)}}\right\rangle\left|\alpha_{i_{P(2)}}\right\rangle\cdots\left|\alpha_{i_P(N)}\right\rangle\left\langle\alpha_{i_1}\middle|\alpha_{j_{Q(1)}}\right\rangle\left\langle\alpha_{i_2}\middle|\alpha_{j_{Q(2)}}\right\rangle\cdots\left\langle\alpha_{i_N}\middle|\alpha_{j_{Q(N)}}\right\rangle \\\\
-        &\qquad =\left(\frac{1}{N!}\right)^{3/2}\sum_{P,Q}\zeta^P\zeta^Q \left|\alpha_{j_{Q\circ P(1)}}\right\rangle\left|\alpha_{j_{Q\circ P(2)}}\right\rangle\cdots\left|\alpha_{j_{Q\circ P(N)}}\right\rangle \\\\
+        &\left[\frac{1}{N!}\sum_{i_1,i_2,\cdots,i_N}\sum_{P}\zeta^P \left(\left|\alpha_{i_{P(1)}}\right\rangle\!\left\langle\alpha_{i_1}\right|\right)\otimes\left(\left|\alpha_{i_{P(2)}}\right\rangle\!\left\langle\alpha_{i_2}\right|\right)\otimes\cdots\otimes\left(\left|\alpha_{i_P(N)}\right\rangle\!\left\langle\alpha_{i_N}\right|\right)\right]\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle \\\\\\
+        &\qquad =\left(\frac{1}{N!}\right)^{3/2}\sum_{i_1,i_2,\cdots,i_N}\sum_{P,Q}\zeta^P\zeta^Q \left|\alpha_{i_{P(1)}}\right\rangle\left|\alpha_{i_{P(2)}}\right\rangle\cdots\left|\alpha_{i_P(N)}\right\rangle\left\langle\alpha_{i_1}\middle|\alpha_{j_{Q(1)}}\right\rangle\left\langle\alpha_{i_2}\middle|\alpha_{j_{Q(2)}}\right\rangle\cdots\left\langle\alpha_{i_N}\middle|\alpha_{j_{Q(N)}}\right\rangle \\\\\\
+        &\qquad =\left(\frac{1}{N!}\right)^{3/2}\sum_{P,Q}\zeta^P\zeta^Q \left|\alpha_{j_{Q\circ P(1)}}\right\rangle\left|\alpha_{j_{Q\circ P(2)}}\right\rangle\cdots\left|\alpha_{j_{Q\circ P(N)}}\right\rangle \\\\\\
         &\qquad =\frac{1}{\sqrt{N!}}\sum_{R}\zeta^R \left|\alpha_{j_{R(1)}}\right\rangle\left|\alpha_{j_{R(2)}}\right\rangle\cdots\left|\alpha_{j_{R(N)}}\right\rangle=\left|\alpha_{j_1},\alpha_{j_2},\cdots,\alpha_{j_N}\right\rangle
     \end{align}
 となることから、完全性関係
@@ -78,3 +78,5 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 [^2]: ある1粒子状態の組で表される多体状態が一意に定まるように状態のとり方を制限している。Bose粒子での条件も同じ。
 
 [^3]: 「1粒子状態の完全系」は$\mathfrak{H}$を張る状態の集合の意味で用いている。以降も同様。
+
+[節目次に戻る](https://pr440.github.io/manybody-qm/Chap1)
