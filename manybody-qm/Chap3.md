@@ -7,14 +7,14 @@
 
 * 格子点上の原子核イオンは電子に比べて非常に重く、運動の時間スケールが長いため、イオンは格子点で静止しているとみなす。
 
-## 3.1 [固体電子の1 粒子状態とバンド描像](https://pr440.github.io/manybody-qm/Sec3-1)
+### [3.1 固体電子の1 粒子状態とバンド描像](https://pr440.github.io/manybody-qm/Sec3-1)
 
-## 3.2 [電子間のCoulomb相互作用](https://pr440.github.io/manybody-qm/Sec3-2)
+### [3.2 電子間のCoulomb相互作用](https://pr440.github.io/manybody-qm/Sec3-2)
 
-## 3.3 [相互作用の遮蔽](https://pr440.github.io/manybody-qm/Sec3-3)
+### [3.3 相互作用の遮蔽](https://pr440.github.io/manybody-qm/Sec3-3)
 
-## 3.4 不純物ポテンシャルの効果
+### 3.4 不純物ポテンシャルの効果
 
-## 3.5 バンド空間のトポロジーによる性質
+### 3.5 バンド空間のトポロジーによる性質
 
-### [章目次に戻る](https://pr440.github.io/manybody-qm/)
+####### [章目次に戻る](https://pr440.github.io/manybody-qm/)
