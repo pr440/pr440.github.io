@@ -79,4 +79,5 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
 
 [^3]: 「1粒子状態の完全系」は$\mathfrak{H}$を張る状態の集合の意味で用いている。以降も同様。
 
+[次節に進む](https://pr440.github.io/manybody-qm/Sec1-2)
 [節目次に戻る](https://pr440.github.io/manybody-qm/Chap1)
