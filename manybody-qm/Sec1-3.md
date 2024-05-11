@@ -1,13 +1,13 @@
 # 1.3 量子多体系のダイナミクス
-真空$\left\lvet 0\right\rangle$に生成演算子$\hat{a}^\dagger(\psi)$を1つ作用させてできる状態$\left\lvert\psi\right\rangle\equiv\hat{a}^\dagger(\psi)\left\lvert 0\right\rangle$は1粒子状態そのものであるので、Schr\"odinger方程式
+真空$\left\lvert 0\right\rangle$に生成演算子$\hat{a}^\dagger(\psi)$を1つ作用させてできる状態$\left\lvert\psi\right\rangle\equiv\hat{a}^\dagger(\psi)\left\lvert 0\right\rangle$は1粒子状態そのものであるので、Schrödinger方程式
 	\begin{equation}	\label{Sch-eq}
 		i\hbar\frac{\mathrm{d}}{\mathrm{d}t}\left|\psi\right\rangle=\hat{H}^{(1)}\left|\psi\right\rangle
 	\end{equation}
-を満たす。$\hat{H}^{(1)}$のエネルギー固有値$E_i$に対する固有状態$\left\lvert i\right\rangle$について生成消滅演算子$\hat{a}^\dagger_i,\hat{a}_i$を作ると、
+を満たす。$\hat{H}^{(1)}$のエネルギー固有値$E_i$に対する固有状態$\left\lvert i\right\rangle$について生成消滅演算子$\hat{a}^\dagger_i,\hat{a}_ i$を作ると、
 	\begin{equation}
 		\hat{H}=\sum_{i}E_i\hat{a}^\dagger_i\hat{a}_i
 	\end{equation}
-とおけばSchr\"odinger方程式\eqref{Sch-eq}および1粒子系の量子力学での記述が保たれる。Schr\"odinger方程式\eqref{Sch-eq}は多粒子系の状態$\left|\psi\right\rangle$についても成り立ち、このハミルトニアンの定義はそのまま、相互作用のない多粒子系のハミルトニアンとして用いることができる。
+とおけばSchrödinger方程式\eqref{Sch-eq}および1粒子系の量子力学での記述が保たれる。Schrödinger方程式\eqref{Sch-eq}は多粒子系の状態$\left\lvert\psi\right\rangle$についても成り立ち、このハミルトニアンの定義はそのまま、相互作用のない多粒子系のハミルトニアンとして用いることができる。
 
 ### [1.3.1 多粒子系の1体演算子](https://pr440.github.io/manybody-qm/Sec1-3-1)
 
