@@ -11,4 +11,6 @@
 
 ### [1.5 径路積分](https://pr440.github.io/manybody-qm/Sec1-5)
 
-###### [章目次に戻る](https://pr440.github.io/manybody-qm/)
+###### [\> 2 量子多体系の解析手法](https://pr440.github.io/manybody-qm/Chap2)
+
+###### [目次(タイトルページ)](https://pr440.github.io/manybody-qm/)

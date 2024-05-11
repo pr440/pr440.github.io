@@ -64,8 +64,8 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 
 [^1]: ここで、前節で見たFermi粒子系の多粒子状態が1粒子状態の並べ方で符号を反転させうることを再考すると、Fermi粒子系は生成演算子の並べ方についての情報を状態の符号という形で有していることがわかる。
 
-[前節に戻る](https://pr440.github.io/manybody-qm/Sec1-1)
+[\< 1.1 同種粒子の不可弁別性](https://pr440.github.io/manybody-qm/Sec1-1)
 
-[次節に進む](https://pr440.github.io/manybody-qm/Sec1-3)
+[\> 1.3 量子多体系のダイナミクス](https://pr440.github.io/manybody-qm/Sec1-3)
 
-[節目次に戻る](https://pr440.github.io/manybody-qm/Chap1)
+[1章目次](https://pr440.github.io/manybody-qm/Chap1)

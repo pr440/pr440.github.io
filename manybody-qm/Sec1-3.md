@@ -21,8 +21,8 @@
 
 ### [1.3.6 量子状態の変換則Ⅰ：離散変換](https://pr440.github.io/manybody-qm/Sec1-3-6)
 
-[前節に戻る](https://pr440.github.io/manybody-qm/Sec1-2)
+[\< 1.2 生成消滅演算子](https://pr440.github.io/manybody-qm/Sec1-2)
 
-[次節に進む](https://pr440.github.io/manybody-qm/Sec1-4)
+[\> 1.4 熱力学極限での多体量子状態](https://pr440.github.io/manybody-qm/Sec1-4)
 
-[節目次に戻る](https://pr440.github.io/manybody-qm/Chap1)
+[1章目次](https://pr440.github.io/manybody-qm/Chap1)
