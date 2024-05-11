@@ -22,10 +22,10 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 		\hat{a}^\dagger(\phi_2)\hat{a}(\phi_1)\left\lvert\psi_1,\psi_2,\cdots,\psi_N\right\rangle&=\sum_{k}\zeta^{k-1}\left\langle\phi_1\middle\vert\chi_k\right\rangle\left\lvert\psi_1,\psi_2,\cdots\psi_{k-1},\chi_{k+1}\cdots,\psi_{N},\phi_2\right\rangle
 	\end{align\*}
 となることから、
-	\begin{equation}	\label{commutation_relation}
-		\left[\hat{a}(\phi_1),\hat{a}^\dagger(\phi_2)\right]_{-\zeta}\equiv\hat{a}(\phi_1)\hat{a}^\dagger(\phi_2)-\zeta\hat{a}^\dagger(\phi_2)\hat{a}(\phi_1)=\left\langle\phi_1\middle\vert\phi_2\right\rangle
+	\begin{equation}\label{commutation_relation}
+		\left\lbrack\hat{a}(\phi_1),\hat{a}^\dagger(\phi_2)\right\rbrack_{-\zeta}\equiv\hat{a}(\phi_1)\hat{a}^\dagger(\phi_2)-\zeta\hat{a}^\dagger(\phi_2)\hat{a}(\phi_1)=\left\langle\phi_1\middle\vert\phi_2\right\rangle
 	\end{equation}
-が成り立つことがわかる。$[\hat{A},\hat{B}]_ {-\zeta}$は$\zeta=+1$のBose粒子のときには交換子$\[\hat{A},\hat{B}\]$、$\zeta=-1$のFermi粒子のときは反交換子$\\{\hat{A},\hat{B}\\}$である。生成演算子同士、消滅演算子同士の交換・反交換子は、
+が成り立つことがわかる。$\lbrack\hat{A},\hat{B}\rbrack_{-\zeta}$は$\zeta=+1$のBose粒子のときには交換子$\lbrack\hat{A},\hat{B}\rbrack$、$\zeta=-1$のFermi粒子のときは反交換子$\\{\hat{A},\hat{B}\\}$である。生成演算子同士、消滅演算子同士の交換・反交換子は、
 	\begin{align\*}
 		\hat{a}^\dagger(\phi_1)\hat{a}^\dagger(\phi_2)\left\lvert\phi_1,\phi_2,\psi_1,\psi_2,\cdots,\psi_N\right\rangle&=\left\lvert\psi_1,\psi_2,\cdots\psi_{k-1},\chi_{k+1}\cdots,\psi_{N}\right\rangle \\\\\\
 		&=\zeta\left\lvert\phi_2,\phi_1\psi_1,\psi_2,\cdots\psi_{k-1},\chi_{k+1}\cdots,\psi_{N}\right\rangle \\\\\\
@@ -40,17 +40,17 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 	\end{align\*}
 なので、
 	\begin{equation}
-		\left[\hat{a}(\phi_1),\hat{a}(\phi_2)\right]_{-\zeta}=0,\quad \left[\hat{a}^\dagger(\phi_1),\hat{a}^\dagger(\phi_2)\right]_{-\zeta}=0
+		\left\lbrack\hat{a}(\phi_1),\hat{a}(\phi_2)\right\rbrack_{-\zeta}=0,\quad \left\lbrack\hat{a}^\dagger(\phi_1),\hat{a}^\dagger(\phi_2)\right\rbrack_{-\zeta}=0
 	\end{equation}
-となる[^1]。
+となる\lbrack^1\rbrack。
 
-前節の正規直交系をなす1粒子状態の完全系$\left\\{\left\lvert\alpha_i\right\rangle\right\\}$を再び用いる。$\hat{a}(\alpha_i)=\hat{a}_ i$と表すことにすると、
+前節の正規直交系をなす1粒子状態の完全系$\left\\{\left\lvert\alpha_i\right\rangle\right\\}$を再び用いる。$\hat{a}(\alpha_i)=\hat{a}_i$と表すことにすると、
 	\begin{align\*}
 		\hat{a}^\dagger_i\hat{a}_i\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle&=\sum_{k}\zeta^{k-1}\left\langle\alpha_i\middle\vert\alpha_{i_k}\right\rangle\left\lvert\alpha_i,\alpha_{i_1},\alpha_{i_2},\cdots\alpha_{i_{k-1}},\alpha_{i_{k+1}}\cdots,\alpha_{i_N}\right\rangle \\\\\\
 		&=\sum_{k}\left\langle\alpha_i\middle\vert\alpha_{i_k}\right\rangle\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots\alpha_{i_{k-1}},\alpha_i,\alpha_{i_{k+1}}\cdots,\alpha_{i_N}\right\rangle \\\\\\
 		&=n_i\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots\alpha_{i_{k-1}},\alpha_{i_k}\alpha_{i_{k+1}}\cdots,\alpha_{i_N}\right\rangle
 	\end{align\*}
-となり、$\hat{n}_ i\equiv\hat{a}^\dagger_i\hat{a}$に対して$\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle$は固有値$n_i$の固有状態となることがわかる。また、$n_i$は$\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle$に含まれる1粒子状態$\left\lvert\alpha_i\right\rangle$の粒子数である。すなわち、$\hat{n}_ i$の固有値はBose粒子系では$n_i=0,1,2,\ldots$に、Fermi粒子系では$n_i=0,1$に限られる。1粒子状態の直交系に対応した$\hat{n}_ i$の組があれば、
+となり、$\hat{n}_i\equiv\hat{a}^\dagger_i\hat{a}$に対して$\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle$は固有値$n_i$の固有状態となることがわかる。また、$n_i$は$\left\lvert\alpha_{i_1},\alpha_{i_2},\cdots,\alpha_{i_N}\right\rangle$に含まれる1粒子状態$\left\lvert\alpha_i\right\rangle$の粒子数である。すなわち、$\hat{n}_i$の固有値はBose粒子系では$n_i=0,1,2,\ldots$に、Fermi粒子系では$n_i=0,1$に限られる。1粒子状態の直交系に対応した$\hat{n}_i$の組があれば、
 	\begin{equation}
 		\hat{N}=\sum_i\hat{n}_i
 	\end{equation}
@@ -62,10 +62,10 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 	\end{equation}
 で与えられることもわかる。
 
-[^1]: ここで、前節で見たFermi粒子系の多粒子状態が1粒子状態の並べ方で符号を反転させうることを再考すると、Fermi粒子系は生成演算子の並べ方についての情報を状態の符号という形で有していることがわかる。
+\lbrack^1\rbrack: ここで、前節で見たFermi粒子系の多粒子状態が1粒子状態の並べ方で符号を反転させうることを再考すると、Fermi粒子系は生成演算子の並べ方についての情報を状態の符号という形で有していることがわかる。
 
-[前節に戻る](https://pr440.github.io/manybody-qm/Sec1-1)
+\lbrack前節に戻る\rbrack(https://pr440.github.io/manybody-qm/Sec1-1)
 
-[次節に進む](https://pr440.github.io/manybody-qm/Sec1-3)
+\lbrack次節に進む\rbrack(https://pr440.github.io/manybody-qm/Sec1-3)
 
-[節目次に戻る](https://pr440.github.io/manybody-qm/Chap1)
+\lbrack節目次に戻る\rbrack(https://pr440.github.io/manybody-qm/Chap1)
