@@ -26,3 +26,32 @@
 ### [付録C 数学の補足](https://pr440.github.io/manybody-qm/ApdxC)
 
 ### And more...?
+
+#### 参考文献
+* A. Altland, B. Simons. Condensed Matter Field Theory. 2nd ed., Cambridge University Press, 2010.
+
+* R.P. Feynman. Statistical Mechanics: A Set Of Lectures. CRC Press, 1998.
+
+* D. Vanderbilt. Berry Phases in Electronic Structure Theory. Cambridge University Press, 2018.
+
+* P. Phillips. Advanced Solid State Physics. 2nd ed., Cambridge University Press, 2012.
+
+* 阿部龍蔵. 統計力学(第2 版). 東京大学出版, 1992.
+
+* 井田大輔. 現代解析力学入門. 朝倉書店, 2020.
+
+* 江藤幹雄. 量子力学Ⅰ. 丸善出版, 2013.
+
+* 川村嘉春. 基礎物理から理解するゲージ理論(臨時別冊・数理科学SGC ライブラリ138). サイエンス社, 2017.
+
+* 坂井典佑. 場の量子論. 裳華房, 2007.
+
+* 清水明. 統計力学特論・量子力学特論. 東大相関基礎科学系・統合自然科学科, 2016. [板書](https://as2.c.u-tokyo.ac.jp/lecture_note/qsm2016/)
+
+* 清水明. 非平衡熱統計力学・量子力学特論. 東大相関基礎科学系・統合自然科学科, 2017. [板書](https://as2.c.u-tokyo.ac.jp/lecture_note/noneq2017/)
+
+* 高橋和孝, 西森秀稔. 相転移・臨界現象とくりこみ群. 丸善出版, 2017.
+
+* 田崎晴明. 統計力学Ⅰ, Ⅱ. 培風館, 2008.
+
+* 永長直人. 物性論における場の量子論. 岩波書店, 2014.
