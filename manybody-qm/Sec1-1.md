@@ -69,7 +69,7 @@ Fermi粒子については$N$粒子の中に同じ状態を持つものがある
     \end{equation}
 となることが導かれる。
 
-以上で議論してきた$N$粒子状態を$N=0$の場合でも考えておくと、粒子がないという状態は(位相の不定性を除いて)1つしかない。それを$\left\lvert0\right\rangle$とおき($\left\langle 0\middle| 0\right\rangle=1$とする)、真空状態と呼ぶ。
+以上で議論してきた$N$粒子状態を$N=0$の場合でも考えておくと、粒子がないという状態は(位相の不定性を除いて)1つしかない。それを$\left\lvert0\right\rangle$とおき($\left\langle 0\middle\vert 0\right\rangle=1$とする)、真空状態と呼ぶ。
 
 1粒子系の量子力学において状態はHilbert空間$\mathfrak{H}$の元であった[^3]。それに対して、N粒子系の状態は1粒子状態のHilbert空間のテンソル積$\mathfrak{H}^{\otimes N}$の元となる。多体系の量子状態はそれの$N$に対する直和の元となるが、この空間はFock空間と呼ばれる。
 
