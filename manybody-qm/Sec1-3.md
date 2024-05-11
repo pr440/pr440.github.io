@@ -19,7 +19,7 @@
 
 ### [1.3.5 スピン](https://pr440.github.io/manybody-qm/Sec1-3-5)
 
-### [1.3.6 量子状態の変換則Ⅰ：離散変換](https://pr440.github.io/manybody-qm/Sec1-3-6)
+### 1.3.6 量子状態の変換則Ⅰ：離散変換
 
 [\< 1.2 生成消滅演算子](https://pr440.github.io/manybody-qm/Sec1-2)
 
