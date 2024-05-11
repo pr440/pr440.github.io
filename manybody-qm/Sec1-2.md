@@ -23,9 +23,9 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 	\end{align\*}
 となることから、
 	\begin{equation}\label{commutation_relation}
-		\left\lbrack\hat{a}(\phi_1),\hat{a}^\dagger(\phi_2)\right\rbrack_{-\zeta}\equiv\hat{a}(\phi_1)\hat{a}^\dagger(\phi_2)-\zeta\hat{a}^\dagger(\phi_2)\hat{a}(\phi_1)=\left\langle\phi_1\middle\vert\phi_2\right\rangle
+		\left[\hat{a}(\phi_1),\hat{a}^\dagger(\phi_2)\right\rbrack _ {-\zeta}\equiv\hat{a}(\phi_1)\hat{a}^\dagger(\phi_2)-\zeta\hat{a}^\dagger(\phi_2)\hat{a}(\phi_1)=\left\langle\phi_1\middle\vert\phi_2\right\rangle
 	\end{equation}
-が成り立つことがわかる。$\lbrack\hat{A},\hat{B}\rbrack_{-\zeta}$は$\zeta=+1$のBose粒子のときには交換子$\lbrack\hat{A},\hat{B}\rbrack$、$\zeta=-1$のFermi粒子のときは反交換子$\\{\hat{A},\hat{B}\\}$である。生成演算子同士、消滅演算子同士の交換・反交換子は、
+が成り立つことがわかる。$[\hat{A},\hat{B}\rbrack _ {-\zeta}$は$\zeta=+1$のBose粒子のときには交換子$[\hat{A},\hat{B}]$、$\zeta=-1$のFermi粒子のときは反交換子$\\{\hat{A},\hat{B}\\}$である。生成演算子同士、消滅演算子同士の交換・反交換子は、
 	\begin{align\*}
 		\hat{a}^\dagger(\phi_1)\hat{a}^\dagger(\phi_2)\left\lvert\phi_1,\phi_2,\psi_1,\psi_2,\cdots,\psi_N\right\rangle&=\left\lvert\psi_1,\psi_2,\cdots\psi_{k-1},\chi_{k+1}\cdots,\psi_{N}\right\rangle \\\\\\
 		&=\zeta\left\lvert\phi_2,\phi_1\psi_1,\psi_2,\cdots\psi_{k-1},\chi_{k+1}\cdots,\psi_{N}\right\rangle \\\\\\
@@ -40,9 +40,9 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 	\end{align\*}
 なので、
 	\begin{equation}
-		\left\lbrack\hat{a}(\phi_1),\hat{a}(\phi_2)\right\rbrack_{-\zeta}=0,\quad \left\lbrack\hat{a}^\dagger(\phi_1),\hat{a}^\dagger(\phi_2)\right\rbrack_{-\zeta}=0
+		\left[\hat{a}(\phi_1),\hat{a}(\phi_2)\right\rbrack _ {-\zeta}=0,\quad \left[\hat{a}^\dagger(\phi_1),\hat{a}^\dagger(\phi_2)\right\rbrack _ {-\zeta}=0
 	\end{equation}
-となる\lbrack^1\rbrack。
+となる[^1]。
 
 前節の正規直交系をなす1粒子状態の完全系$\left\\{\left\lvert\alpha_i\right\rangle\right\\}$を再び用いる。$\hat{a}(\alpha_i)=\hat{a}_i$と表すことにすると、
 	\begin{align\*}
@@ -62,10 +62,10 @@ $(N+1)$粒子系の量子状態$\left\lvert\chi_1,\chi_2,\cdots,\chi_{N+1}\right
 	\end{equation}
 で与えられることもわかる。
 
-\lbrack^1\rbrack: ここで、前節で見たFermi粒子系の多粒子状態が1粒子状態の並べ方で符号を反転させうることを再考すると、Fermi粒子系は生成演算子の並べ方についての情報を状態の符号という形で有していることがわかる。
+[^1]: ここで、前節で見たFermi粒子系の多粒子状態が1粒子状態の並べ方で符号を反転させうることを再考すると、Fermi粒子系は生成演算子の並べ方についての情報を状態の符号という形で有していることがわかる。
 
-\lbrack前節に戻る\rbrack(https://pr440.github.io/manybody-qm/Sec1-1)
+[前節に戻る](https://pr440.github.io/manybody-qm/Sec1-1)
 
-\lbrack次節に進む\rbrack(https://pr440.github.io/manybody-qm/Sec1-3)
+[次節に進む](https://pr440.github.io/manybody-qm/Sec1-3)
 
-\lbrack節目次に戻る\rbrack(https://pr440.github.io/manybody-qm/Chap1)
+[節目次に戻る](https://pr440.github.io/manybody-qm/Chap1)
