@@ -1,11 +1,11 @@
 # 多体系の量子力学(ノート)
 1粒子系の量子力学の知識を前提に、量子多体系の取り扱いとその具体例をまとめています(未完成)。
 
-### 1. [量子多体系の記述](https://pr440.github.io/manybody-qm/Chap1)
+### [1. 量子多体系の記述](https://pr440.github.io/manybody-qm/Chap1)
 
-### 2. [量子多体系の解析手法](https://pr440.github.io/manybody-qm/Chap2)
+### [2. 量子多体系の解析手法](https://pr440.github.io/manybody-qm/Chap2)
 
-### 3. [量子多体系としての固体結晶Ⅰ：バンド描像での電子相関](https://pr440.github.io/manybody-qm/Chap3)
+### [3. 量子多体系としての固体結晶Ⅰ：バンド描像での電子相関](https://pr440.github.io/manybody-qm/Chap3)
 
 ### 4. 量子多体系としての固体結晶Ⅱ：BCS理論
 
