@@ -1,7 +1,7 @@
 # 多体系の量子力学(ノート)
 1粒子系の量子力学の知識を前提に、量子多体系の取り扱いとその具体例をまとめています(未完成)。
 
-## [pdf版(2024/06/06更新)](https://pr440.github.io/manybody-qm.pdf)
+## [pdf版(2024/06/14更新)](https://pr440.github.io/manybody-qm.pdf)
 
 ### [1 量子多体系の記述](https://pr440.github.io/manybody-qm/Chap1)
 
