@@ -4,32 +4,16 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1"> <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    <style>
-      html {
-        font-size: clamp(14px, 1.2vw + 0.8rem, 20px);
-      }
-
-      #main_content {
-        max-width: 80ch; 
-        margin: 0 auto;
-        line-height: 1.6;
-      }
-
-      #project_title {
-        font-size: clamp(1.8rem, 5vw, 3.5rem) !important;
-      }
-      #project_tagline {
-        font-size: clamp(1rem, 2.5vw, 1.5rem) !important;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
     {% include head-custom.html %}
   </head>
 
   <body>
+
+    <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
           {% if site.github.is_project_page %}
@@ -48,12 +32,14 @@
         </header>
     </div>
 
+    <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
       </section>
     </div>
 
+    <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
